@@ -1,0 +1,16 @@
+{
+  "app": {
+    "title": "CraftFlow"
+  },
+  "auth": {
+    "loginTitle": "Logowanie",
+    "username": "Nazwa użytkownika",
+    "password": "Hasło",
+    "loginButton": "Zaloguj",
+    "invalidCredentials": "Nieprawidłowa nazwa użytkownika lub hasło"
+  },
+  "dashboard": {
+    "title": "Panel",
+    "welcome": "Witaj w CraftFlow!"
+  }
+}
