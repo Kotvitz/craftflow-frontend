@@ -45,13 +45,14 @@
 
 .navItem,
 .navItemActive {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   font-size: 0.9rem;
   padding: 0.45rem 0.6rem;
   border-radius: 8px;
   text-decoration: none;
   color: inherit;
-  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .navItem:hover {

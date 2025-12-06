@@ -3,6 +3,13 @@ import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import styles from "./AppLayout.module.css";
 import { LanguageSelect } from "../components/LanguageSelect";
+import {
+  LayoutDashboard,
+  ToolCase,
+  Warehouse,
+  Users,
+  Settings
+} from "lucide-react";
 
 type AppLayoutProps = {
   children: ReactNode;
@@ -26,6 +33,7 @@ export function AppLayout({ children }: AppLayoutProps) {
               isActive ? styles.navItemActive : styles.navItem
             }
           >
+            <LayoutDashboard size={18} />
             {t("nav.dashboard")}
           </NavLink>
           <NavLink
@@ -34,6 +42,7 @@ export function AppLayout({ children }: AppLayoutProps) {
               isActive ? styles.navItemActive : styles.navItem
             }
           >
+            <ToolCase size={18} />
             {t("nav.jobs")}
           </NavLink>
           <NavLink
@@ -42,6 +51,7 @@ export function AppLayout({ children }: AppLayoutProps) {
               isActive ? styles.navItemActive : styles.navItem
             }
           >
+            <Warehouse size={18} />
             {t("nav.inventory")}
           </NavLink>
           <NavLink
@@ -50,6 +60,7 @@ export function AppLayout({ children }: AppLayoutProps) {
               isActive ? styles.navItemActive : styles.navItem
             }
           >
+            <Users size={18} /> 
             {t("nav.customers")}
           </NavLink>
           <NavLink
@@ -58,6 +69,7 @@ export function AppLayout({ children }: AppLayoutProps) {
               isActive ? styles.navItemActive : styles.navItem
             }
           >
+            <Settings size={18} /> 
             {t("nav.settings")}
           </NavLink>
         </nav>
