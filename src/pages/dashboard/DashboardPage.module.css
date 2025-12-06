@@ -1,22 +1,243 @@
 .pageWrapper {
   padding: 2rem;
-  background: #f9fafb;
+  background: #f6f3ef;
   min-height: 100vh;
 }
 
-.content {
-  max-width: 960px;
-  margin: 0 auto;
+.headerRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .title {
-  font-size: 1.75rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
   color: #111827;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.35rem;
 }
 
 .welcomeText {
   font-size: 1.05rem;
-  color: #4b5563;
+  color: #4b3b28;
 }
+
+.headerActions {
+  display: flex;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.primaryButton,
+.secondaryButton {
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.15s ease, color 0.15s ease,
+    border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.primaryButton {
+  background-color: #8b5a2b;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 1px 4px rgba(139, 90, 43, 0.35);
+}
+
+.primaryButton:hover {
+  background-color: #7a4f26;
+}
+
+.secondaryButton {
+  background-color: #fff7f0;
+  color: #8b5a2b;
+  border-color: #e0c3a3;
+}
+
+.secondaryButton:hover {
+  background-color: #f0e0cf;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.statCard {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  border-top: 4px solid #a46c34;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.statLabel {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b4c2a;
+  margin-bottom: 0.25rem;
+}
+
+.statValue {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2d1b0b;
+  margin-bottom: 0.25rem;
+}
+
+.statHint {
+  font-size: 0.85rem;
+  color: #7c6a52;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1.5fr) minmax(0, 1.5fr);
+  gap: 1.5rem;
+}
+
+.section {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.sectionTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #3b2511;
+}
+
+.linkButton {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #8b5a2b;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.linkButton:hover {
+  color: #a46c34;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #f0e0cf;
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}
+
+.itemTitle {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #2d1b0b;
+}
+
+.itemMeta {
+  font-size: 0.8rem;
+  color: #7c6a52;
+}
+
+.statusBadge {
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.statusNew {
+  background-color: #fff2e5;
+  color: #8b5a2b;
+  border-color: #f0c9a3;
+}
+
+.statusMeasured {
+  background-color: #e6f0ff;
+  color: #254d8e;
+  border-color: #bfd0f5;
+}
+
+.statusInProgress {
+  background-color: #fff9e5;
+  color: #856900;
+  border-color: #f3df9a;
+}
+
+.statusReady {
+  background-color: #e5f7ec;
+  color: #11683a;
+  border-color: #a8ddc0;
+}
+
+.statusInstalled {
+  background-color: #dff3e8;
+  color: #0f5a32;
+  border-color: #8ccfae;
+}
+
+.statusDone {
+  background-color: #ececec;
+  color: #3d3d3d;
+  border-color: #d0d0d0;
+}
+
+.emptyState {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: #7c6a52;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .headerRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mainGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
