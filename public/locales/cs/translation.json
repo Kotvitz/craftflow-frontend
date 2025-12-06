@@ -61,6 +61,13 @@
       "GENERAL_SERVICE": "Obecný servis"
     }
   },
+  "nav": {
+    "dashboard": "Nástěnka",
+    "jobs": "Zakázky",
+    "inventory": "Sklad",
+    "customers": "Zákazníci",
+    "settings": "Nastavení"
+},
   "i18n": {
     "selectLanguage": "Vyberte jazyk:"
   }

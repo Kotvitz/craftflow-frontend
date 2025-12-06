@@ -67,7 +67,14 @@
       "MEASUREMENT_ONLY": "Measurement only",
       "SERVICE_VISIT": "Service visit",
       "GENERAL_SERVICE": "General service"
-  }
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "jobs": "Jobs",
+    "inventory": "Inventory",
+    "customers": "Customers",
+    "settings": "Settings"
   },
   "i18n": {
     "selectLanguage": "Select language:"

@@ -61,6 +61,13 @@
       "GENERAL_SERVICE": "Allgemeiner Service"
     }
   },
+  "nav": {
+    "dashboard": "Dashboard",
+    "jobs": "Aufträge",
+    "inventory": "Lager",
+    "customers": "Kunden",
+    "settings": "Einstellungen"
+  },
   "i18n": {
     "selectLanguage": "Sprache wählen:"
   }

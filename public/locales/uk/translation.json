@@ -61,6 +61,13 @@
       "GENERAL_SERVICE": "Загальний сервіс"
     }
   },
+  "nav": {
+    "dashboard": "Панель керування",
+    "jobs": "Завдання",
+    "inventory": "Склад",
+    "customers": "Клієнти",
+    "settings": "Налаштування"
+  },
   "i18n": {
     "selectLanguage": "Виберіть мову:"
   }

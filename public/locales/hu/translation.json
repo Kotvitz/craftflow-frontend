@@ -61,6 +61,13 @@
       "GENERAL_SERVICE": "Általános szolgáltatás"
     }
   },
+  "nav": {
+    "dashboard": "Vezérlőpult",
+    "jobs": "Munkák",
+    "inventory": "Raktár",
+    "customers": "Ügyfelek",
+    "settings": "Beállítások"
+  },
   "i18n": {
     "selectLanguage": "Válasszon nyelvet:"
   }

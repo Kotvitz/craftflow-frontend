@@ -61,6 +61,13 @@
       "GENERAL_SERVICE": "Usługa ogólna"
     }
   },
+  "nav": {
+    "dashboard": "Panel",
+    "jobs": "Zlecenia",
+    "inventory": "Magazyn",
+    "customers": "Klienci",
+    "settings": "Ustawienia"
+  },
   "i18n": {
     "selectLanguage": "Wybierz język:"
   }
