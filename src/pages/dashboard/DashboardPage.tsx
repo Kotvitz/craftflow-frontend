@@ -1,11 +1,15 @@
 import { useTranslation } from "react-i18next";
 import styles from "./DashboardPage.module.css";
+import { LanguageSelect } from "../../components/LanguageSelect";
 
 export function DashboardPage() {
   const { t } = useTranslation();
 
   return (
     <div className={styles.pageWrapper}>
+      <div className={styles.topBar}>
+        <LanguageSelect />
+      </div>
       <div className={styles.headerRow}>
         <div>
           <h1 className={styles.title}>{t("dashboard.title")}</h1>
