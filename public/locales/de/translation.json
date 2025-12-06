@@ -11,7 +11,55 @@
   },
   "dashboard": {
     "title": "Dashboard",
-    "welcome": "Willkommen bei CraftFlow!"
+    "welcome": "Willkommen bei CraftFlow!",
+    "actions": {
+      "newJob": "Neuer Auftrag",
+      "newCustomer": "Neuer Kunde"
+    },
+    "stats": {
+      "openJobs": "Offene Aufträge",
+      "openJobsHint": "Noch nicht abgeschlossene Aufträge",
+      "todayJobs": "Heutige Aufträge",
+      "todayJobsHint": "Für heute geplant",
+      "waitingForMeasurement": "Wartet auf Aufmaß",
+      "waitingForMeasurementHint": "Aufträge, die einen Aufmaßtermin benötigen",
+      "lowStock": "Geringer Lagerbestand",
+      "lowStockHint": "Unter dem erforderlichen Minimum"
+    },
+    "section": {
+      "myJobsToday": "Meine heutigen Aufträge",
+      "schedule": "Zeitplan",
+      "lowStock": "Geringer Lagerbestand"
+    },
+    "viewAllJobs": "Alle Aufträge anzeigen",
+    "viewInventory": "Lager öffnen",
+    "scheduleEmpty": "Keine Termine geplant. Aufträge mit Termin erscheinen hier.",
+    "labels": {
+      "jobType": "Auftragstyp",
+      "todayAt": "Heute um {{time}}",
+      "stock": "Bestand"
+    }
+  },
+  "job": {
+    "status": {
+      "NEW": "Neu",
+      "MEASURED": "Vermessen",
+      "IN_PROGRESS": "In Bearbeitung",
+      "READY": "Bereit",
+      "INSTALLED": "Installiert",
+      "DONE": "Abgeschlossen"
+    },
+    "type": {
+      "WINDOW_INSTALL": "Fenstermontage",
+      "DOOR_INSTALL": "Türmontage",
+      "WINDOW_REPAIR": "Fensterreparatur",
+      "DOOR_REPAIR": "Türreparatur",
+      "GLASS_REPLACEMENT": "Glasaustausch",
+      "FURNITURE_REPAIR": "Möbelreparatur",
+      "MEASUREMENT_ONLY": "Nur Aufmaß",
+      "SERVICE_VISIT": "Servicebesuch",
+      "GENERAL_SERVICE": "Allgemeiner Service"
+    }
   },
   "i18n": {
     "selectLanguage": "Sprache wählen:"

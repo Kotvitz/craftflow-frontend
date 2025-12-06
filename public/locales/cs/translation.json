@@ -9,9 +9,57 @@
     "loginButton": "Přihlásit se",
     "invalidCredentials": "Neplatné uživatelské jméno nebo heslo"
   },
-  "dashboard": {
+"dashboard": {
     "title": "Panel",
-    "welcome": "Vítejte v CraftFlow!"
+    "welcome": "Vítejte v CraftFlow!",
+    "actions": {
+      "newJob": "Nová zakázka",
+      "newCustomer": "Nový zákazník"
+    },
+    "stats": {
+      "openJobs": "Otevřené zakázky",
+      "openJobsHint": "Dosud nedokončené zakázky",
+      "todayJobs": "Dnešní zakázky",
+      "todayJobsHint": "Plánované na dnešek",
+      "waitingForMeasurement": "Čeká na zaměření",
+      "waitingForMeasurementHint": "Zakázky vyžadující zaměření",
+      "lowStock": "Nízký stav materiálu",
+      "lowStockHint": "Pod požadovaným minimem"
+    },
+    "section": {
+      "myJobsToday": "Moje dnešní zakázky",
+      "schedule": "Harmonogram",
+      "lowStock": "Nízký stav materiálu"
+    },
+    "viewAllJobs": "Zobrazit všechny zakázky",
+    "viewInventory": "Otevřít sklad",
+    "scheduleEmpty": "Žádné naplánované návštěvy. Zakázky s termínem se zobrazí zde.",
+    "labels": {
+      "jobType": "Typ zakázky",
+      "todayAt": "Dnes v {{time}}",
+      "stock": "Stav"
+    }
+  },
+  "job": {
+    "status": {
+      "NEW": "Nová",
+      "MEASURED": "Zaměřeno",
+      "IN_PROGRESS": "Probíhá",
+      "READY": "Připraveno",
+      "INSTALLED": "Nainstalováno",
+      "DONE": "Dokončeno"
+    },
+    "type": {
+      "WINDOW_INSTALL": "Montáž oken",
+      "DOOR_INSTALL": "Montáž dveří",
+      "WINDOW_REPAIR": "Oprava oken",
+      "DOOR_REPAIR": "Oprava dveří",
+      "GLASS_REPLACEMENT": "Výměna skla",
+      "FURNITURE_REPAIR": "Oprava nábytku",
+      "MEASUREMENT_ONLY": "Pouze zaměření",
+      "SERVICE_VISIT": "Servisní návštěva",
+      "GENERAL_SERVICE": "Obecný servis"
+    }
   },
   "i18n": {
     "selectLanguage": "Vyberte jazyk:"

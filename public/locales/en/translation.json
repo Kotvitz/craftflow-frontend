@@ -11,7 +11,63 @@
   },
   "dashboard": {
     "title": "Dashboard",
-    "welcome": "Welcome to CraftFlow!"
+    "welcome": "Welcome to CraftFlow!",
+    "actions": {
+      "newJob": "New Job",
+      "newCustomer": "New Customer"
+    },
+
+    "stats": {
+      "openJobs": "Open Jobs",
+      "openJobsHint": "Jobs not finished yet",
+
+      "todayJobs": "Jobs Today",
+      "todayJobsHint": "Planned for today",
+
+      "waitingForMeasurement": "Waiting for Measurement",
+      "waitingForMeasurementHint": "Jobs requiring a measurement visit",
+
+      "lowStock": "Low-Stock Materials",
+      "lowStockHint": "Below required minimum"
+    },
+
+    "section": {
+      "myJobsToday": "My Jobs Today",
+      "schedule": "Schedule",
+      "lowStock": "Low-Stock Materials"
+    },
+
+    "viewAllJobs": "View All Jobs",
+    "viewInventory": "Open Inventory",
+
+    "scheduleEmpty": "No planned visits yet. Jobs with scheduled dates will appear here.",
+
+    "labels": {
+      "jobType": "Job Type",
+      "todayAt": "Today at {{time}}",
+      "stock": "Stock"
+    }
+  },
+  "job": {
+    "status": {
+      "NEW": "New",
+      "MEASURED": "Measured",
+      "IN_PROGRESS": "In Progress",
+      "READY": "Ready",
+      "INSTALLED": "Installed",
+      "DONE": "Done"
+    },
+    "type": {
+      "WINDOW_INSTALL": "Window installation",
+      "DOOR_INSTALL": "Door installation",
+      "WINDOW_REPAIR": "Window repair",
+      "DOOR_REPAIR": "Door repair",
+      "GLASS_REPLACEMENT": "Glass replacement",
+      "FURNITURE_REPAIR": "Furniture repair",
+      "MEASUREMENT_ONLY": "Measurement only",
+      "SERVICE_VISIT": "Service visit",
+      "GENERAL_SERVICE": "General service"
+  }
   },
   "i18n": {
     "selectLanguage": "Select language:"

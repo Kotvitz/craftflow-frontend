@@ -11,7 +11,55 @@
   },
   "dashboard": {
     "title": "Panel",
-    "welcome": "Witaj w CraftFlow!"
+    "welcome": "Witamy w CraftFlow!",
+    "actions": {
+      "newJob": "Nowe zlecenie",
+      "newCustomer": "Nowy klient"
+    },
+    "stats": {
+      "openJobs": "Otwarte zlecenia",
+      "openJobsHint": "Zlecenia jeszcze nieukończone",
+      "todayJobs": "Dzisiejsze zlecenia",
+      "todayJobsHint": "Zaplanowane na dziś",
+      "waitingForMeasurement": "Oczekujące na pomiar",
+      "waitingForMeasurementHint": "Zlecenia wymagające wizyty pomiarowej",
+      "lowStock": "Niski stan magazynu",
+      "lowStockHint": "Poniżej wymaganego minimum"
+    },
+    "section": {
+      "myJobsToday": "Moje dzisiejsze zlecenia",
+      "schedule": "Harmonogram",
+      "lowStock": "Niski stan magazynu"
+    },
+    "viewAllJobs": "Zobacz wszystkie zlecenia",
+    "viewInventory": "Otwórz magazyn",
+    "scheduleEmpty": "Brak zaplanowanych wizyt. Zlecenia z datą wizyty pojawią się tutaj.",
+    "labels": {
+      "jobType": "Typ zlecenia",
+      "todayAt": "Dzisiaj o {{time}}",
+      "stock": "Stan"
+    }
+  },
+  "job": {
+    "status": {
+      "NEW": "Nowe",
+      "MEASURED": "Wymierzone",
+      "IN_PROGRESS": "W toku",
+      "READY": "Gotowe",
+      "INSTALLED": "Zamontowane",
+      "DONE": "Zakończone"
+    },
+    "type": {
+      "WINDOW_INSTALL": "Montaż okien",
+      "DOOR_INSTALL": "Montaż drzwi",
+      "WINDOW_REPAIR": "Naprawa okien",
+      "DOOR_REPAIR": "Naprawa drzwi",
+      "GLASS_REPLACEMENT": "Wymiana szyby",
+      "FURNITURE_REPAIR": "Naprawa mebli",
+      "MEASUREMENT_ONLY": "Tylko pomiar",
+      "SERVICE_VISIT": "Wizyta serwisowa",
+      "GENERAL_SERVICE": "Usługa ogólna"
+    }
   },
   "i18n": {
     "selectLanguage": "Wybierz język:"

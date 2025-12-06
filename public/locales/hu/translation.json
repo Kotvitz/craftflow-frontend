@@ -11,7 +11,55 @@
   },
   "dashboard": {
     "title": "Vezérlőpult",
-    "welcome": "Üdvözöljük a CraftFlow-ban!"
+    "welcome": "Üdvözöljük a CraftFlow-ban!",
+    "actions": {
+      "newJob": "Új munka",
+      "newCustomer": "Új ügyfél"
+    },
+    "stats": {
+      "openJobs": "Nyitott munkák",
+      "openJobsHint": "Még be nem fejezett munkák",
+      "todayJobs": "Mai munkák",
+      "todayJobsHint": "A mai napra tervezve",
+      "waitingForMeasurement": "Felmérésre vár",
+      "waitingForMeasurementHint": "Felmérést igénylő munkák",
+      "lowStock": "Alacsony készletszint",
+      "lowStockHint": "A szükséges minimum alatt"
+    },
+    "section": {
+      "myJobsToday": "Mai munkáim",
+      "schedule": "Ütemterv",
+      "lowStock": "Alacsony készletszint"
+    },
+    "viewAllJobs": "Összes munka megtekintése",
+    "viewInventory": "Raktár megnyitása",
+    "scheduleEmpty": "Nincsenek tervezett látogatások. A dátummal rendelkező munkák itt jelennek meg.",
+    "labels": {
+      "jobType": "Munka típusa",
+      "todayAt": "Ma {{time}}",
+      "stock": "Készlet"
+    }
+  },
+  "job": {
+    "status": {
+      "NEW": "Új",
+      "MEASURED": "Mért",
+      "IN_PROGRESS": "Folyamatban",
+      "READY": "Kész",
+      "INSTALLED": "Telepítve",
+      "DONE": "Befejezve"
+    },
+    "jobtype": {
+      "WINDOW_INSTALL": "Ablak beépítés",
+      "DOOR_INSTALL": "Ajtó beépítés",
+      "WINDOW_REPAIR": "Ablak javítás",
+      "DOOR_REPAIR": "Ajtó javítás",
+      "GLASS_REPLACEMENT": "Üvegcsere",
+      "FURNITURE_REPAIR": "Bútor javítás",
+      "MEASUREMENT_ONLY": "Csak mérés",
+      "SERVICE_VISIT": "Szervizlátogatás",
+      "GENERAL_SERVICE": "Általános szolgáltatás"
+    }
   },
   "i18n": {
     "selectLanguage": "Válasszon nyelvet:"

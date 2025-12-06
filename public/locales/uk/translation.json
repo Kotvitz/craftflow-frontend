@@ -11,7 +11,55 @@
   },
   "dashboard": {
     "title": "Панель керування",
-    "welcome": "Ласкаво просимо до CraftFlow!"
+"welcome": "Ласкаво просимо до CraftFlow!",
+    "actions": {
+      "newJob": "Нове завдання",
+      "newCustomer": "Новий клієнт"
+    },
+    "stats": {
+      "openJobs": "Відкриті завдання",
+      "openJobsHint": "Завдання, які ще не завершені",
+      "todayJobs": "Завдання на сьогодні",
+      "todayJobsHint": "Заплановано на сьогодні",
+      "waitingForMeasurement": "Очікує на вимірювання",
+      "waitingForMeasurementHint": "Завдання, що потребують вимірювання",
+      "lowStock": "Низький запас матеріалів",
+      "lowStockHint": "Нижче необхідного мінімуму"
+    },
+    "section": {
+      "myJobsToday": "Мої завдання на сьогодні",
+      "schedule": "Графік",
+      "lowStock": "Низький запас матеріалів"
+    },
+    "viewAllJobs": "Переглянути всі завдання",
+    "viewInventory": "Відкрити склад",
+    "scheduleEmpty": "Немає запланованих візитів. Завдання з призначеною датою з’являться тут.",
+    "labels": {
+      "jobType": "Тип завдання",
+      "todayAt": "Сьогодні о {{time}}",
+      "stock": "Запас"
+    }
+  },
+  "job": {
+    "status": {
+      "NEW": "Нове",
+      "MEASURED": "Виміряно",
+      "IN_PROGRESS": "У процесі",
+      "READY": "Готове",
+      "INSTALLED": "Встановлено",
+      "DONE": "Завершено"
+    },
+    "jobType": {
+      "WINDOW_INSTALL": "Монтаж вікон",
+      "DOOR_INSTALL": "Монтаж дверей",
+      "WINDOW_REPAIR": "Ремонт вікон",
+      "DOOR_REPAIR": "Ремонт дверей",
+      "GLASS_REPLACEMENT": "Заміна скла",
+      "FURNITURE_REPAIR": "Ремонт меблів",
+      "MEASUREMENT_ONLY": "Лише вимірювання",
+      "SERVICE_VISIT": "Сервісний візит",
+      "GENERAL_SERVICE": "Загальний сервіс"
+    }
   },
   "i18n": {
     "selectLanguage": "Виберіть мову:"
