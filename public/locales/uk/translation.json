@@ -1,0 +1,19 @@
+{
+  "app": {
+    "title": "CraftFlow"
+  },
+  "auth": {
+    "loginTitle": "Вхід",
+    "username": "Ім'я користувача",
+    "password": "Пароль",
+    "loginButton": "Увійти",
+    "invalidCredentials": "Неправильне ім'я користувача або пароль"
+  },
+  "dashboard": {
+    "title": "Панель керування",
+    "welcome": "Ласкаво просимо до CraftFlow!"
+  },
+  "i18n": {
+    "selectLanguage": "Виберіть мову:"
+  }
+}

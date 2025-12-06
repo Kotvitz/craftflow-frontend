@@ -1,0 +1,19 @@
+{
+  "app": {
+    "title": "CraftFlow"
+  },
+  "auth": {
+    "loginTitle": "Bejelentkezés",
+    "username": "Felhasználónév",
+    "password": "Jelszó",
+    "loginButton": "Bejelentkezés",
+    "invalidCredentials": "Érvénytelen felhasználónév vagy jelszó"
+  },
+  "dashboard": {
+    "title": "Vezérlőpult",
+    "welcome": "Üdvözöljük a CraftFlow-ban!"
+  },
+  "i18n": {
+    "selectLanguage": "Válasszon nyelvet:"
+  }
+}

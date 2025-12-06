@@ -1,0 +1,19 @@
+{
+  "app": {
+    "title": "CraftFlow"
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Log in",
+    "invalidCredentials": "Invalid username or password"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to CraftFlow!"
+  },
+  "i18n": {
+    "selectLanguage": "Select language:"
+  }
+}

@@ -6,11 +6,14 @@
     "loginTitle": "Logowanie",
     "username": "Nazwa użytkownika",
     "password": "Hasło",
-    "loginButton": "Zaloguj",
+    "loginButton": "Zaloguj się",
     "invalidCredentials": "Nieprawidłowa nazwa użytkownika lub hasło"
   },
   "dashboard": {
     "title": "Panel",
     "welcome": "Witaj w CraftFlow!"
+  },
+  "i18n": {
+    "selectLanguage": "Wybierz język:"
   }
 }

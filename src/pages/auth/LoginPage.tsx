@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../hooks/useAuth";
 import { useTranslation } from "react-i18next";
+import { LanguageSelect } from "../../components/LanguageSelect";
 import styles from "./LoginPage.module.css";
 
 export function LoginPage() {
@@ -26,6 +27,10 @@ export function LoginPage() {
   return (
     <div className={styles.pageWrapper}>
       <div className={styles.card}>
+        <div className={styles.headerRow}>
+          <LanguageSelect />
+        </div>
+
         <h1 className={styles.title}>{t("auth.loginTitle")}</h1>
 
         <form onSubmit={handleSubmit} className={styles.form}>

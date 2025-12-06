@@ -1,0 +1,19 @@
+{
+  "app": {
+    "title": "CraftFlow"
+  },
+  "auth": {
+    "loginTitle": "Přihlášení",
+    "username": "Uživatelské jméno",
+    "password": "Heslo",
+    "loginButton": "Přihlásit se",
+    "invalidCredentials": "Neplatné uživatelské jméno nebo heslo"
+  },
+  "dashboard": {
+    "title": "Panel",
+    "welcome": "Vítejte v CraftFlow!"
+  },
+  "i18n": {
+    "selectLanguage": "Vyberte jazyk:"
+  }
+}
