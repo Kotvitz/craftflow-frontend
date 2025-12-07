@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import styles from "./AppLayout.module.css";
@@ -8,7 +9,9 @@ import {
   ToolCase,
   Warehouse,
   Users,
-  Settings
+  Settings,
+  Menu,
+  X
 } from "lucide-react";
 
 type AppLayoutProps = {
@@ -17,10 +20,18 @@ type AppLayoutProps = {
 
 export function AppLayout({ children }: AppLayoutProps) {
   const { t } = useTranslation();
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => setIsSidebarOpen((open) => !open);
+  const closeSidebar = () => setIsSidebarOpen(false);
 
   return (
     <div className={styles.appShell}>
-      <aside className={styles.sidebar}>
+      <aside
+        className={`${styles.sidebar} ${
+          isSidebarOpen ? styles.sidebarOpen : ""
+        }`}
+      >
         <div className={styles.logo}>
           <span className={styles.logoMark}>CF</span>
           <span className={styles.logoText}>{t("app.title")}</span>
@@ -75,8 +86,24 @@ export function AppLayout({ children }: AppLayoutProps) {
         </nav>
       </aside>
 
+    <div
+        className={`${styles.sidebarBackdrop} ${
+          isSidebarOpen ? styles.sidebarBackdropVisible : ""
+        }`}
+        onClick={closeSidebar}
+      />
+
       <div className={styles.main}>
         <header className={styles.topBar}>
+          <button
+            className={styles.menuButton}
+            type="button"
+            onClick={toggleSidebar}
+            aria-label={t("nav.toggleSidebar")}
+          >
+            {isSidebarOpen ? <X size={20} /> : <Menu size={20} />}
+          </button>
+
           <div className={styles.topBarRight}>
             <LanguageSelect />
           </div>

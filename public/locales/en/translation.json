@@ -74,7 +74,8 @@
     "jobs": "Jobs",
     "inventory": "Inventory",
     "customers": "Customers",
-    "settings": "Settings"
+    "settings": "Settings",
+    "toggleSidebar": "Toggle sidebar"
   },
   "i18n": {
     "selectLanguage": "Select language:"

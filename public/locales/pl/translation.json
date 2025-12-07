@@ -66,7 +66,8 @@
     "jobs": "Zlecenia",
     "inventory": "Magazyn",
     "customers": "Klienci",
-    "settings": "Ustawienia"
+    "settings": "Ustawienia",
+    "toggleSidebar": "Pokaż/ukryj menu"
   },
   "i18n": {
     "selectLanguage": "Wybierz język:"
