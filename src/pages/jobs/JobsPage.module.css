@@ -1,0 +1,185 @@
+.pageWrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.headerRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #3b2511;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #7c6a52;
+}
+
+.primaryButton {
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1px solid #8b5a2b;
+  background: #8b5a2b;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(139, 90, 43, 0.35);
+}
+
+.primaryButton:hover {
+  background: #a46c34;
+  border-color: #a46c34;
+}
+
+.filtersRow {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr 0.9fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.searchInput,
+.select {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #e0d3c4;
+  background: #fdfaf6;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.95rem;
+  color: #3b2511;
+  outline: none;
+}
+
+.searchInput:focus,
+.select:focus {
+  border-color: #caa37d;
+  box-shadow: 0 0 0 3px rgba(139, 90, 43, 0.15);
+}
+
+.tableCard {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead th {
+  text-align: left;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #6b4c2a;
+  background: #fff7f0;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #f0e0cf;
+}
+
+.table tbody td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #f0e0cf;
+  color: #3b2511;
+  font-size: 0.95rem;
+}
+
+.table tbody tr:hover {
+  background: #fdf7f1;
+}
+
+.cellStrong {
+  font-weight: 600;
+}
+
+.actionsCell {
+  text-align: right;
+}
+
+.linkButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #8b5a2b;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.linkButton:hover {
+  color: #a46c34;
+}
+
+.emptyState {
+  padding: 2.25rem 1.5rem;
+  color: #7c6a52;
+  text-align: center;
+}
+
+.statusBadge {
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.statusNew {
+  background-color: #fff2e5;
+  color: #8b5a2b;
+  border-color: #f0c9a3;
+}
+
+.statusMeasured {
+  background-color: #e6f0ff;
+  color: #254d8e;
+  border-color: #bfd0f5;
+}
+
+.statusInProgress {
+  background-color: #fff9e5;
+  color: #856900;
+  border-color: #f3df9a;
+}
+
+.statusReady {
+  background-color: #e5f7ec;
+  color: #11683a;
+  border-color: #a8ddc0;
+}
+
+.statusInstalled {
+  background-color: #dff3e8;
+  color: #0f5a32;
+  border-color: #8ccfae;
+}
+
+.statusDone {
+  background-color: #ececec;
+  color: #3d3d3d;
+  border-color: #d0d0d0;
+}
+
+@media (max-width: 900px) {
+  .headerRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filtersRow {
+    grid-template-columns: 1fr;
+  }
+}
