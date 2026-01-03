@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { LoginPage } from "./pages/auth/LoginPage";
 import { DashboardPage } from "./pages/dashboard/DashboardPage";
+import { JobsPage } from "./pages/jobs/JobsPage";
 import { AppLayout } from "./layout/AppLayout";
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
           path="/jobs"
           element={
             <AppLayout>
-              <div>(todo)</div>
+              <JobsPage />
             </AppLayout>
           }
         />
