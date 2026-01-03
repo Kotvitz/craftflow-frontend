@@ -40,6 +40,26 @@
       "stock": "Bestand"
     }
   },
+  "jobs": {
+    "subtitle": "Aufträge suchen und verwalten",
+    "actions": {
+      "newJob": "Neuer Auftrag",
+      "view": "Ansehen"
+    },
+    "filters": {
+      "searchPlaceholder": "Nach Kunde oder Titel suchen",
+      "allStatuses": "Alle Status",
+      "allJobTypes": "Alle Auftragstypen"
+    },
+    "table": {
+      "customer": "Kunde",
+      "title": "Titel",
+      "type": "Auftragstyp",
+      "status": "Status",
+      "plannedAt": "Geplant"
+    },
+    "empty": "Keine Aufträge für die ausgewählten Filter gefunden"
+  },
   "job": {
     "status": {
       "NEW": "Neu",
@@ -71,5 +91,9 @@
   },
   "i18n": {
     "selectLanguage": "Sprache wählen:"
+  },
+  "common": {
+    "loading": "Wird geladen…",
+    "error": "Fehler"
   }
 }

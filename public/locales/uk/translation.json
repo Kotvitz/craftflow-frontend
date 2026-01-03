@@ -40,6 +40,26 @@
       "stock": "Запас"
     }
   },
+  "jobs": {
+    "subtitle": "Пошук та керування завданнями",
+    "actions": {
+      "newJob": "Нове завдання",
+      "view": "Переглянути"
+    },
+    "filters": {
+      "searchPlaceholder": "Пошук за клієнтом або назвою",
+      "allStatuses": "Усі статуси",
+      "allJobTypes": "Усі типи робіт"
+    },
+    "table": {
+      "customer": "Клієнт",
+      "title": "Назва",
+      "type": "Тип роботи",
+      "status": "Статус",
+      "plannedAt": "Заплановано"
+    },
+    "empty": "Немає завдань за вибраними фільтрами"
+  },
   "job": {
     "status": {
       "NEW": "Нове",
@@ -49,7 +69,7 @@
       "INSTALLED": "Встановлено",
       "DONE": "Завершено"
     },
-    "jobType": {
+    "type": {
       "WINDOW_INSTALL": "Монтаж вікон",
       "DOOR_INSTALL": "Монтаж дверей",
       "WINDOW_REPAIR": "Ремонт вікон",
@@ -71,5 +91,9 @@
   },
   "i18n": {
     "selectLanguage": "Виберіть мову:"
+  },
+  "common": {
+    "loading": "Завантаження…",
+    "error": "Помилка"
   }
 }

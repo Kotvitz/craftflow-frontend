@@ -40,6 +40,26 @@
       "stock": "Készlet"
     }
   },
+  "jobs": {
+    "subtitle": "Munkák keresése és kezelése",
+    "actions": {
+      "newJob": "Új munka",
+      "view": "Megtekintés"
+    },
+    "filters": {
+      "searchPlaceholder": "Keresés ügyfél vagy cím szerint",
+      "allStatuses": "Összes állapot",
+      "allJobTypes": "Összes munkatípus"
+    },
+    "table": {
+      "customer": "Ügyfél",
+      "title": "Megnevezés",
+      "type": "Munka típusa",
+      "status": "Állapot",
+      "plannedAt": "Tervezett"
+    },
+    "empty": "Nincs a szűrőknek megfelelő munka"
+  },
   "job": {
     "status": {
       "NEW": "Új",
@@ -49,7 +69,7 @@
       "INSTALLED": "Telepítve",
       "DONE": "Befejezve"
     },
-    "jobtype": {
+    "type": {
       "WINDOW_INSTALL": "Ablak beépítés",
       "DOOR_INSTALL": "Ajtó beépítés",
       "WINDOW_REPAIR": "Ablak javítás",
@@ -71,5 +91,9 @@
   },
   "i18n": {
     "selectLanguage": "Válasszon nyelvet:"
+  },
+  "common": {
+    "loading": "Betöltés…",
+    "error": "Hiba"
   }
 }

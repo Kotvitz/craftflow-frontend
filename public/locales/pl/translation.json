@@ -40,6 +40,26 @@
       "stock": "Stan"
     }
   },
+  "jobs": {
+    "subtitle": "Wyszukuj i zarządzaj zleceniami",
+    "actions": {
+      "newJob": "Nowe zlecenie",
+      "view": "Podgląd"
+    },
+    "filters": {
+      "searchPlaceholder": "Szukaj po nazwie klienta lub tytule",
+      "allStatuses": "Wszystkie statusy",
+      "allJobTypes": "Wszystkie typy prac"
+    },
+    "table": {
+      "customer": "Klient",
+      "title": "Tytuł",
+      "type": "Typ pracy",
+      "status": "Status",
+      "plannedAt": "Planowane"
+    },
+    "empty": "Brak zleceń spełniających wybrane kryteria"
+  },
   "job": {
     "status": {
       "NEW": "Nowe",
@@ -71,5 +91,9 @@
   },
   "i18n": {
     "selectLanguage": "Wybierz język:"
+  },
+  "common": {
+    "loading": "Ładowanie…",
+    "error": "Błąd"
   }
 }

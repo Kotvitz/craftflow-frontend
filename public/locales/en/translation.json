@@ -48,6 +48,26 @@
       "stock": "Stock"
     }
   },
+  "jobs": {
+    "subtitle": "Search and manage job orders",
+    "actions": {
+      "newJob": "New Job",
+      "view": "View"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by customer or title",
+      "allStatuses": "All statuses",
+      "allJobTypes": "All job types"
+    },
+    "table": {
+      "customer": "Customer",
+      "title": "Title",
+      "type": "Job type",
+      "status": "Status",
+      "plannedAt": "Planned"
+    },
+    "empty": "No jobs found for the selected filters"
+  },
   "job": {
     "status": {
       "NEW": "New",
@@ -79,5 +99,9 @@
   },
   "i18n": {
     "selectLanguage": "Select language:"
+  },
+   "common": {
+    "loading": "Loading…",
+    "error": "Error"
   }
 }

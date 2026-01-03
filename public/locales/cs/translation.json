@@ -40,6 +40,26 @@
       "stock": "Stav"
     }
   },
+  "jobs": {
+    "subtitle": "Vyhledávání a správa zakázek",
+    "actions": {
+      "newJob": "Nová zakázka",
+      "view": "Zobrazit"
+    },
+    "filters": {
+      "searchPlaceholder": "Hledat podle zákazníka nebo názvu",
+      "allStatuses": "Všechny stavy",
+      "allJobTypes": "Všechny typy zakázek"
+    },
+    "table": {
+      "customer": "Zákazník",
+      "title": "Název",
+      "type": "Typ zakázky",
+      "status": "Stav",
+      "plannedAt": "Plánováno"
+    },
+    "empty": "Pro vybrané filtry nebyly nalezeny žádné zakázky"
+  },
   "job": {
     "status": {
       "NEW": "Nová",
@@ -68,8 +88,12 @@
     "customers": "Zákazníci",
     "settings": "Nastavení",
     "toggleSidebar": "Zobrazit/skrýt boční menu"
-},
+  },
   "i18n": {
     "selectLanguage": "Vyberte jazyk:"
+  },
+  "common": {
+    "loading": "Načítání…",
+    "error": "Chyba"
   }
 }
